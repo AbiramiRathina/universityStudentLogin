@@ -1,0 +1,216 @@
+<html>
+<head>
+   <link rel="stylesheet" href ="timetable.css">
+</head>
+<style>
+body
+{
+	font-family:Comic Sans MS
+}
+#a
+{
+	background-color:black;
+	color:white;
+}
+table
+{
+	table-layout: fixed;
+    width: 1000;  
+	height:100;
+}
+.dropdown 
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 360px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+body
+{
+	max-width: 700px;
+	margin: auto;
+}
+
+ 
+table
+{
+	border-collapse:collapse;
+}
+
+
+  
+  
+  
+  
+  
+  
+  <!NAVIGATION!>
+body 
+{
+	font-family:"Lato", sans-serif;
+}
+
+
+.sidenav
+{
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a, .dropdown-btn 
+{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover 
+{
+	color: #f1f1f1;
+}
+
+.heading
+{
+	text-align:center;
+	font-size:50;
+	text-shadow:2px 2px 5px blue;
+	margin-left:30px;
+}
+
+</style>
+
+<body>
+<div class="heading">TIMETABLE</div>
+<div class="sidenav">
+  <a href="page5.html">Dashboard</a>
+  <a href="page6.html">Personal Details</a>
+  <a href="page7.html">Timetable</a>
+  <a href="page8.html">GPA calculation</a>
+  <a href="page9.html">Mark and Attendance</a>
+  <a href="page10.html">Regulation</a>
+  
+</div>
+
+<table border="1">
+
+<tr id="b">
+<th id="a">DAY</th>
+<th align="center"> 1(8:30am-9:20am)</th>
+<th>2(9:25am-10:15am)</th>
+<th>3(10:30am-11:20am)</th>
+<th>4(11:25am-12:15pm)</th>
+<th>5(1:10pm-1:50pm)</th>
+<th>6(1:55pm-2:45pm)</th>
+<th>7(3:00pm-3:50pm)</th>
+<th>8(3:55pm-4:45pm)</th>
+</tr>
+<tr>
+<td height="50" align="center" id="a" >MONDAY</td>
+<td height="50" align="center" colspan="2" ><div class="dropdown"><span>MATHS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Vijayashree</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center">     </td>
+<td height="50" align="center" ><div class="dropdown"><span>IT ESSENTIALS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Sindhu</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+<td height="50" align="center" colspan="4"  ><b><div class="dropdown"><span>EEE LAB</span><div class="dropdown-content">
+    <pre><p align="center">STAFF NAME:Mrs.Suderoli </p><p>CREDITS:2</p></pre>
+  </div>
+</div></div></b></td>
+</tr>
+<tr>
+<td height="50" align="center" id="a">TUESDAY</td>
+<td height="50" align="center" colspan="4" ><b><div class="dropdown"><span>IT ESSENTIALS LAB</span><div class="dropdown-content">
+     <pre><p align='center'>STAFFNAME:Mrs.Sindhu</p><p>CREDITS:2</p></pre>
+	 </div></div></b></td>
+<td height="50" align="center" id="e"><div class="dropdown"><span>EEE</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Saravanasathish</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+<td height="50" align="center">    </td>
+<td height="50" align="center"><div class="dropdown"><span>MATHS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Vijayashree</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center">   </td>
+</tr>
+<tr>
+<td height="50" align="center" id="a">WEDNESDAY</td>
+<td height="50">  </td>
+<td height="50">  </td>
+<td height="50">  </td>
+<td height="50">  </td>
+<td height="50" align="center" ><div class="dropdown"><span>TECHNICAL ENGLISH</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Ramakrishnan</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center" colspan="3" id="f"><div class="dropdown"><span>ENGINEERING GRAPHICS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Suderson</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+</tr>
+<tr>
+<td height="50" align="center" id="a">THURSDAY</td>
+<td height="50" align="center" colspan="2" ><div class="dropdown"><span>ENGLISH</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Ramakrishnan</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center"><div class="dropdown"><span>IT ESSENTIALS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Sindhu</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+<td height="50" align="center" ><div class="dropdown"><span>EEE</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Saravanasathish</p><p>CREDITS:3</p></pre>
+	 </div></div> </td>
+<td height="50">  </td>
+<td height="50">  </td>
+<td height="50">  </td>
+<td height="50">  </td>
+</tr>
+<tr>
+<td height="50" align="center" id="a">FRIDAY</td>
+<td height="50">  </td>
+<td height="50" align="center" ><div class="dropdown"><span>EEE</span><div class="dropdown-content">
+   
+     <pre><p>STAFFNAME:MR.Saravanasathish</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+<td height="50" align="center" colspan="2" ><div class="dropdown"><span>ENGINEERING GRAPHICS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Suderson</p><p>CREDITS:3</p></pre>
+	 </div></div> </td>
+<td height="50" align="center" ><div class="dropdown"><span>MATHS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Vijayashree</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center"></td>
+<td height="50" align="center" ><div class="dropdown"><span>ENGLISH</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:MR.Ramakrishnan</p><p>CREDITS:4</p></pre>
+	 </div></div></td>
+<td height="50" align="center" ><div class="dropdown"><span>IT ESSENTIALS</span><div class="dropdown-content">
+     <pre><p>STAFFNAME:Mrs.Sindhu</p><p>CREDITS:3</p></pre>
+	 </div></div></td>
+</tr>
+</table>
+</body>
+</html>

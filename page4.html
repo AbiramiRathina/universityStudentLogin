@@ -1,0 +1,149 @@
+<html>
+<body>
+<style>
+body {
+     background-image:url(image2.jpg);
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+     background-size: cover;
+	 font-family:Comic Sans MS;
+}
+.head{
+     
+	 font-size:40; 
+	 background-color:rgb(255,99,65,0.4);
+	 text-align:center;
+}
+.topnav 
+{
+	border-radius:5;
+	background-color: black;
+	overflow: hidden;
+	height:40px;
+}
+.topnav a
+{
+	color:white;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration:none;
+	font-size: 20px;
+}
+.topnav a:hover 
+{
+	background-color: gray;
+	color: black;
+}
+a.active
+{
+	background-color:gray;
+	float:right;
+}
+.log
+{
+	float:right;	
+}
+.login
+{
+     text-align:center;
+	 font-size:25;
+	 box-shadow:0px 8px 16px 0px rgba(0,0,0,0.5);
+	 padding:16;
+	 width:30%;
+	 max-width: 500px;
+	 margin: auto;
+	 background-color:lightgray;
+	 border-radius:20;
+}
+.main a
+{
+     text-decoration:none;
+	 font-size:15;
+	 color:white;
+}
+.main a:link
+{
+     color:pink;
+}
+.main a:hover
+{
+     color:black;
+}
+.marquee
+{
+     font-size:15px;
+     font-weight:80;
+     font-family:Comic Sans MS;
+} 
+.id
+{
+	 text-align:center;
+	 font-size:30;
+	 font-weight:30;
+}	
+.heading
+{
+	text-shadow:2px 2px 5px violet;
+	font-size:40;
+	text-align:center;
+}
+.others
+{
+	float:left;
+}
+.placeholder
+{
+	font-family:Comic Sans MS;
+	text-align:center;
+	background: linear-gradient(to left, #993399 0%, #ff99cc 100%);
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius:100;
+	width:60%;
+}
+
+
+</style>
+
+
+<div class="topnav">
+	<img class="others" src="home2.png">
+	<a class="others" href="page1.html">Home</a>
+	<a class="others" href="page2.html">About us</a>
+	<a class="others" href="page3.html">Contact</a>
+	<img class="log" src="loginlogo.png">
+	<a class="active" class="log" href="page4.html">Login</a>
+</div>
+<p style="font-family:Comic Sans MS;font-size:15; text-align:right;"><i>developed by SAS web team</i></p>
+<marquee> PLEASE ENTER YOUR REGISTRATION NUMBER AS USERNAME</marquee>
+<p class="heading" >LOGIN</p>
+
+<br>
+<form name="form1" class="login">
+<p align="center" style="font-size:20" ><b>SIGN UP</b></p> 
+<hr width=40%>
+<div>
+     <input type="text" name="login" placeholder="USERNAME" class="placeholder" ><br><br>
+	 <input type="password" name="password" placeholder="PASSWORD" class="placeholder"  ><br><br>
+	 <button onclick="myfunction()" class="placeholder"><a href="page5.html" style="text-decoration:none">SUBMIT</a></button></p>
+	 <div class="main"><a href="forgotpassword.html"><p>forgot password? click here.</p></a></div>
+</div>
+</form>
+<script>
+     function myfunction(){
+         var username=document.form1.login.value;
+		 var password=document.form1.login.value;
+		 if (username==0 || password==0){
+		     window.alert("please fill in the essentials!!!")
+		}
+}
+</script>
+</body>
+</html>
